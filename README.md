@@ -1,4 +1,4 @@
-# The Word In Fresh (TWF) — Starter Website
+# The Word In Flesh (TWF) — Starter Website
 
 ## What this contains
 - Static front-end (HTML/CSS) inside `public/`
