@@ -1,7 +1,7 @@
 {
   "name": "twf-website",
   "version": "1.0.0",
-  "description": "The Word In Fresh (TWF) ministry website",
+  "description": "The Word In Flesh (TWF) ministry website",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
