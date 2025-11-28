@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>The Word In Fresh — TWF</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <!-- Logo (SVG) -->
+      <a href="/" class="logo">
+        <img src="/logo.svg" alt="The Word In Fresh (TWF) logo" width="140" />
+      </a>
+      <nav class="main-nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container">
+        <h1>Welcome to The Word In Fresh</h1>
+        <p>Refreshing hearts with the life-transforming Word.</p>
+      </div>
+    </section>
+
+    <section id="about" class="container">
+      <h2>About TWF</h2>
+      <p>The Word In Fresh is a ministry committed to sharing God's word in fresh, accessible ways.</p>
+    </section>
+
+    <section id="gallery" class="container gallery">
+      <h2>Gallery</h2>
+      <p>Click an image to open full size.</p>
+      <div class="grid">
+        <a href="/gallery/image1.png" target="_blank"><img src="/gallery/image1.png" alt="Gallery image 1"></a>
+        <a href="/gallery/image2.png" target="_blank"><img src="/gallery/image2.png" alt="Gallery image 2"></a>
+      </div>
+    </section>
+
+    <section id="contact" class="container contact">
+      <h2>Contact</h2>
+      <p>Email: hello@thewordinfresh.example (replace with real address)</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> The Word In Fresh (TWF). All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Set year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
