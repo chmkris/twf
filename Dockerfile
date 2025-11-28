@@ -17,10 +17,10 @@ ARG VCS_REF
 
 LABEL org.opencontainers.image.created=$BUILD_DATE \
       org.opencontainers.image.revision=$VCS_REF \
-      org.opencontainers.image.title="The Word In Fresh"
+      org.opencontainers.image.title="The Word In Flesh"
 
 # Expose port
-EXPOSE 3000
+EXPOSE 80
 
 # Start the server
 CMD ["node", "server.js"]
