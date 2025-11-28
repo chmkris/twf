@@ -20,7 +20,7 @@ LABEL org.opencontainers.image.created=$BUILD_DATE \
       org.opencontainers.image.title="The Word In Flesh"
 
 # Expose port
-EXPOSE 80
+EXPOSE 3000
 
 # Start the server
 CMD ["node", "server.js"]
